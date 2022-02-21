@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkcyan;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+    display:grid;
+    justify-content:center;
+}
+
+p, h1 {
+   text-align: center;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+}
+
+#winner-el {
+    color: #fcde67;
+    width: 80vh;
+}
+
+.fa-play {
+    font-size: 16px;
+}
+
+button {
+    margin:10px 210px 0 210px;
+    width: 15vw;
+    height: 5vh;
+    color: darkcyan;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+button:hover {
+    transition: 0.2s ease-in;
+    transform: scale(1.1);
+    color: #065c60;
+}
